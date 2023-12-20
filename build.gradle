@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
 
+java {
+      withJavadocJar()
+}
 repositories {
     mavenCentral()
+    withSourcesJar()
 }
 
 dependencies {
