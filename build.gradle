@@ -3,9 +3,6 @@ plugins {
     id 'jacoco'
 }
 
-java {
-      withJavadocJar()
-}
 repositories {
     mavenCentral()
     withSourcesJar()
